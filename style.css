@@ -1,0 +1,55 @@
+.gradient-background {
+  background: linear-gradient(300deg, #1E201E, #3C3D37, #ECDFCC);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.lead{
+  color:white;
+
+}
+
+.section-wrap {
+  background: transparent;
+}
+
+
+.album {
+  background: transparent !important;
+  margin-top: 0 !important;
+}
+
+
+section.py-5 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.color-white{
+  color: white;
+}
+
+.about-text {
+  max-width: 680px;
+  line-height: 1.9;
+  font-size: 1.05rem;
+}
+
+.profile-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;   
+  border-radius: 50%;
+}
